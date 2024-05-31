@@ -1,0 +1,218 @@
+.mobile-de-plugin{
+    width: 100% !important;
+    font-family: BarlowCondensed !important;
+
+    .ads{
+
+      .carItem{
+        grid-template-rows: 252px 165px auto 20px auto !important;
+        .priceRow{
+            position: relative;
+            top: 80px;
+            .price{
+                color: $darkblue !important;
+                font-family: BarlowBold !important;
+            }
+        }
+       
+        h2{
+            a{
+            font-family: BarlowCondensed !important;
+            font-size: 20px;
+    
+            letter-spacing: 0.4px;
+            text-align: left;
+            color: $darkblue;
+
+            b{
+                font-family: BarlowBold !important;
+            }
+        }
+        }
+
+        .moreDetails {
+            position: relative;
+            top:-120px;
+            margin: 10px;
+            padding-left: 5px !important;
+            padding-right: 5px !important;
+            font-family: BarlowCondensed !important;
+            color:rgba(0,0,0,.6);
+            background-image: url(../images/icons/antrieb-icon.svg);
+            background-repeat: no-repeat;
+            background-position-y: 6px;
+            background-position-x: 5px;
+            &:before{
+                content:"   Antrieb: ";
+                color:rgba(0,0,0,.6);
+                margin-right: 20px;
+                display: block;
+                padding-left:20px
+            }
+            &:after{
+                content:" ";
+                display: block;
+                height: 10px; border-bottom:1px dotted rgba(0,0,0,.4);
+            }
+            padding-bottom: 15px !important;
+           
+        }
+
+        .emissionsDetails{
+            position: relative;
+            top:-60px;
+            margin: 10px;
+            padding-left: 5px !important;
+            padding-right: 5px !important;
+            font-family: BarlowCondensed !important;
+            color:rgba(0,0,0,.6);
+            background-image: url(../images/icons/verbrauch-icon.svg);
+            background-repeat: no-repeat;
+            background-position-y: 6px;
+            background-position-x: 5px;
+            &:before{
+                content:"Verbrauch: ";
+                color:rgba(0,0,0,.6);
+                margin-right: 20px;
+                display: block; padding-left:20px
+            }
+            padding-bottom: 10px !important;
+            &:after{
+                content:" ";
+                display: block;
+                height: 10px; border-bottom:1px dotted rgba(0,0,0,.4);
+            }
+        }
+
+      }
+    }
+}
+
+#wehiko-app {
+    background-color: #fff;
+    padding-top: 1.5rem!important;
+    padding-bottom: 1.5rem!important;
+    padding-right: 3rem!important;
+    padding-left: 3rem!important;
+    margin-top: -20px;
+    margin-bottom: 40px;
+    box-shadow: 0 33px 36px 0 rgba(93, 108, 123, 0.08);
+    &:after{
+        content: ' ';
+        display: block;
+        background: transparent;
+        height: 20px;
+    }
+
+
+   
+
+   
+}
+
+#wehiko-app input {
+    height: 40px;
+    margin: 0 0 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    border: 0;
+    text-overflow: ellipsis;
+    width: 100%;
+    padding: 15px !important;
+    
+    background-color: #fff;
+    max-width: 100%;
+
+   
+}
+
+div[class*="_dropdown_"]{
+    border:1px solid #000 !important;
+    border-radius: 0 !important;padding: 10px 15px !important;
+    color: rgba(0, 0, 0, 0.5) !important;
+    margin-bottom: 30px;
+    overflow: unset;
+}
+div[class*="_fineGrain_12ibt_29"]{
+ column-gap: 20px !important
+}
+
+#wehiko-app div[class*="_dropdown_"] > label {
+    background: white;
+    position: absolute;
+    top: -20px;
+    width: auto;
+    white-space: nowrap;
+    padding-right: 10px;
+    display: block;
+
+    font-family: BarlowCondensed !important;
+  font-size: 14px;
+  color: #000;
+}
+
+._dropdown_8794a_6 {
+   
+        &:after{
+            background-image: url('../images/icons/chevron-down-solid.svg') !important;
+            background-size: 20px;
+            background-repeat: no-repeat;
+            width: 27px;
+            height: 26px;
+            display: block;
+            content: "";
+            position: absolute;
+            right: 10px;
+            pointer-events: none;
+            top: 20px;
+        
+        
+    }
+}
+
+._showFilters_12ibt_89 {
+    font-family: BarlowCondensed !important;
+}
+#_summary_12ibt_1 p {
+   margin-left: -10px;
+}
+
+._items_8794a_39 {
+    margin-top: -30px !important;
+}
+
+#wehiko-app input[type=text] {
+    height: 40px;
+    margin: 0 0 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    border: 0;
+    text-overflow: ellipsis;
+    width: 120% !important;
+    padding: 0;
+    background-color: #fff;
+    max-width: 120% !important;
+}
+#wehiko-app input[type=checkbox] {
+    height: 20px !important;
+    width: 20px !important;
+
+}
+._clear_8794a_25{
+    width: 0 !important;
+}
+
+.ad {
+    box-shadow: 0 33px 36px 0 rgba(93, 108, 123, 0.08) !important;
+
+    @media(max-width:1200px){
+        box-shadow:none !important;
+
+    }
+    margin-bottom: 20px !important;
+}
+
+._items_8794a_39 li {
+    display: flex !important;
+    justify-content: space-between !important;
+}

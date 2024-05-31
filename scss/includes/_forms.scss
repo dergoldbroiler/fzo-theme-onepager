@@ -1,0 +1,75 @@
+input,select {
+    border-radius: 0 !important;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="number"], input[type="password"], textarea, select {
+    padding:20px !important;
+}
+
+.frm_primary_label {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    @media screen and (max-width: 1200px) {
+        font-size: 16px !important;
+        
+    }
+    @media screen and (max-width: 992px) {
+        font-size: 15px !important;
+        
+    }
+}
+
+
+*::-webkit-input-placeholder, *::placeholder, select {
+    font-size: 16px !important;
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+
+select {
+    background: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0Ljk1IDEwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2ZmZjt9LmNscy0ye2ZpbGw6IzQ0NDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmFycm93czwvdGl0bGU+PHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iNC45NSIgaGVpZ2h0PSIxMCIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSIxLjQxIDQuNjcgMi40OCAzLjE4IDMuNTQgNC42NyAxLjQxIDQuNjciLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMy41NCA1LjMzIDIuNDggNi44MiAxLjQxIDUuMzMgMy41NCA1LjMzIi8+PC9zdmc+) no-repeat;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='16' width='16' viewBox='0 0 512 512'%3E%3C!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--%3E%3Cpath d='M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z'/%3E%3C/svg%3E");
+    background-position: right 15px center; /* Change the px value here to change the distance */
+    -moz-appearance: none; 
+    position: relative;
+    -webkit-appearance: none; 
+    appearance: none;
+        padding : 5px 30px
+}
+  
+  
+
+.frm_submit {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: flex-end;
+
+    .frm_button_submit {
+        transition: all 0.3s ease-in-out !important;
+        border-radius: 0 !important;
+        border: none !important;
+        background-color: rgb(3, 34, 62) !important;
+        color:white !important;
+        padding: 20px 60px !important;
+        text-transform: uppercase !important;
+        font-size: 16px !important;
+        font-weight: 600 !important;
+
+        @media(max-width:992px){
+            padding: 15px 30px !important;
+        }
+        &:hover {
+            background-color: rgba(3, 34, 62,.8) !important;
+        }
+    }
+}
+
+
+.frm4, .frm6, .frm3 {
+    @media screen and (max-width: 992px) {
+        width: 100% !important;
+        max-width: 100% !important;
+        display: block !important;
+        grid-column: span 12 !important;
+        
+    }
+}

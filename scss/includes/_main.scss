@@ -1,0 +1,284 @@
+html {
+    width:100%;
+    height:100%;
+    overflow-x: hidden;
+    background-color: $bodybg;
+    font-family: 'BarlowCondensed';
+    font-size: 16px;
+  
+}
+
+body {
+    
+    width:100%;
+    height:auto;
+    overflow-x: hidden;
+    background-color: $bodybg;
+    font-family: 'BarlowCondensed';
+    font-size: 16px;
+    color: $copyblue;
+    
+
+    #top-logo, .logofooter img {
+        max-width: 80%;
+    }
+
+    .bg-blue {
+        background-color: rgba(3, 34, 62,.3);
+    }
+    .bg-darkblue {
+        background-color: rgba(3, 34, 62,1);
+    }
+    .bg-lightgrey{
+        background-color: rgb(3, 34, 62, .03)
+    }
+    h1{
+        font-size:40px;
+
+        @media screen and (max-width: 768px) {
+            font-size: 30px;            
+        }
+    }
+    h1, h2, h3, h4 {
+        font-family: 'BarlowBold';
+
+        &.topline{
+            &:before {
+                content: " ";
+                width: 35px;
+                height: 5px;
+                margin: 7.8px 16.3px 30.2px 0;
+                background-color: #e8a422;
+                display: block;
+            
+            }
+        }
+
+        &.white {
+            color: white;
+        }
+        &.fw500{
+            font-weight: 500;
+            font-family: 'BarlowCondensed';
+        }
+        &.fs16{
+            font-size: 16px;
+        }
+        &.fs23{
+            font-size: 23px;
+        }
+        &.fs18{
+            font-size: 18px;
+        }
+        &.fs20{
+            font-size: 20px;
+        }
+        &.fs30{
+            font-size: 30px;
+        }
+        &.fs36{
+            font-size: 36px;
+
+            @media(max-width: 768px){
+                font-size: 28px;
+            }
+            @media(max-width: 480px){
+                font-size: 24px;
+            }
+        }
+        &.fw600 {
+            font-weight: 600;
+        }
+
+        .inforow{
+            letter-spacing: 0.64px;
+        }
+
+        a.beige{
+            color:#e8a422 !important
+        }
+    }
+
+    #page-wrap {
+        max-width: 1320px;
+        height:100%;
+        margin: auto;
+        overflow-x: hidden;
+    }
+
+    a {
+        color: $copyblue;
+        text-decoration: underline;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    #header, #header-mobile {
+        z-index: 9999;
+
+        #header-inner-container{
+            @media (max-width: 1200px) {
+              background-color: $darkblue;
+              max-width: 100%;
+            }
+           
+        }
+
+        .headershortcode {
+            margin-top: -40px;
+        }
+
+        .mobile{
+            display: none;
+            @media (max-width: 1200px) {
+                display: block !important;
+                position: relative;
+                z-index: 9999;
+             }
+        }
+        
+        .contact {
+            padding-right:50px;
+            
+            @media (max-width: 1400px) {
+                padding-right:0px;
+                padding-left:50px;
+ 
+             }
+            
+            @media (max-width: 1200px) {
+               display: none !important;
+
+            }
+       
+            .whatsapp{
+                padding-left:20px;
+                &:before{
+                    content:' ';
+                    display: inline-block;
+                    background-image: url('../images/icons/whatsapp-glyph-black.svg');
+                    background-size: 20.2px 20.4px;
+                    background-repeat: no-repeat;
+                    width:20.2px;
+                    height:20.4px;
+                    vertical-align: middle;
+                    margin-right: 15px;
+                }
+            }
+
+            .telefon{
+                padding-left:20px;
+                &:before{
+                    content:' ';
+                    display: inline-block;
+                    background-image: url('../images/icons/phone.svg'); 
+                    background-size: 17.1px 17.1px;
+                    background-repeat: no-repeat;
+                    width:17px;
+                    height:17px;
+                    vertical-align: text-bottom;
+                    margin-right: 20px;
+                }
+            }
+
+            .clock {
+                margin-right: 20px;
+                &:before{
+                    content:' ';
+                    display: inline-block;
+                    background-image: url('../images/icons/clock.svg');
+                    background-size: 17.1px 17.1px;
+                    background-repeat: no-repeat;
+                    width:17px;
+                    height:17px;
+                    vertical-align: text-bottom;
+                    margin-right: 5px;
+                }
+            }
+        }
+       
+
+        #headerbackground {
+            pointer-events: none;
+            height: 400px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            margin-top: -20px;
+
+            .overlay{
+                background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 25%, #000);
+                width: 100%;
+                height: 100%;
+            }
+            
+
+        }
+            .headercontent {
+                width:100%;
+                height:auto;
+                margin-top: -430px;
+                position: relative;
+                padding-top: 200px;
+              
+                &.more-margin-top{
+                    margin-top: -500px;
+                } 
+              
+            }
+
+          
+        
+    }
+
+}
+
+
+
+.sticky {
+    height: 76px;
+    top:0;
+    position: fixed !important;
+    z-index: 9999;
+
+    @media(max-width:1400px) {
+        height: 74px;
+    }
+}
+
+#header-inner-container {
+ 
+}
+
+
+
+
+#headerbackground-mobile,#headerbackground {
+    pointer-events: none;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -20px;
+
+    .overlay{
+        background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 25%, #000);
+        width: 100%;
+        height: 100%;
+    }
+    
+
+}
+    .headercontent-mobile,.headercontent {
+        width:100%;
+        height:auto;
+        margin-top: -430px;
+        position: relative;
+        padding-top: 200px;
+      
+        &.more-margin-top{
+            margin-top: -500px;
+        } 
+      
+    }
