@@ -33,7 +33,7 @@ body {
   color: #062b4d;
 }
 body #top-logo, body .logofooter img {
-  max-width: 80%;
+  max-width: 65%;
 }
 body .bg-blue {
   background-color: rgba(3, 34, 62, 0.3);
@@ -122,6 +122,25 @@ body a:hover {
 }
 body #header, body #header-mobile {
   z-index: 9999;
+}
+body #header .back, body #header-mobile .back {
+  position: absolute;
+  margin-left: -360px;
+  background-color: #03223e;
+  height: 103px;
+  width: 360px;
+  clip-path: polygon(0 0, 100% 0%, 91% 100%, 0% 100%);
+  top: 0;
+}
+body #header .back img, body #header-mobile .back img {
+  max-width: 60%;
+}
+body #header .back img#backto, body #header-mobile .back img#backto {
+  max-width: 100%;
+  width: 100%;
+}
+body #header #header-inner-container, body #header-mobile #header-inner-container {
+  background-color: #fff;
 }
 @media (max-width: 1200px) {
   body #header #header-inner-container, body #header-mobile #header-inner-container {

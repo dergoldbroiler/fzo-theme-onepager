@@ -1,0 +1,3 @@
+<div class="back d-flex flex-row align-items-center justify-content-center p-3"> 
+<a href="/" class="me-4"><img  src="<?php bloginfo('stylesheet_directory'); ?>/images/back_arrow.svg" alt="Autohaus Löhr, Fahrzeugzentrum Olpe" class="img-fluid" id="backto"/>    </a>&nbsp;&nbsp;
+<img  src="<?php bloginfo('stylesheet_directory'); ?>/images/FZ_Olpe_Logo_mobile.svg" alt="Autohaus Löhr, Fahrzeugzentrum Olpe" class="img-fluid" /></div>

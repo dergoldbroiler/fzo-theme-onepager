@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22.189" height="22.19" viewBox="0 0 22.189 22.19">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.5;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="back_arrow" class="cls-1" transform="translate(0 0)">
+    <path id="Pfad_958" data-name="Pfad 958" class="cls-2" d="M11.094,22.19a11.095,11.095,0,1,1,11.1-11.1,11.107,11.107,0,0,1-11.1,11.1m0-20.8A9.708,9.708,0,1,0,20.8,11.094a9.719,9.719,0,0,0-9.708-9.708" transform="translate(0 0)"/>
+    <path id="Pfad_959" data-name="Pfad 959" class="cls-2" d="M11.441,5.988H2.367L5.785,9.406a.693.693,0,0,1-.981.981L.2,5.785A.694.694,0,0,1,.2,4.8L4.8.2a.693.693,0,1,1,.981.981L2.367,4.6h9.074a.693.693,0,0,1,0,1.387" transform="translate(5.027 5.8)"/>
+  </g>
+</svg>

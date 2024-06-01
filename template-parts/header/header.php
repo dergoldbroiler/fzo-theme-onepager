@@ -7,7 +7,7 @@
         <div class="row">
            <div class="col-9 col-xl-3">
                 <a href="/" class="d-none d-xl-block">
-                    <img  src="<?php bloginfo('stylesheet_directory'); ?>/images/FZ_Olpe_Logo.svg" alt="Autohaus Löhr, Fahrzeugzentrum Olpe" class="img-fluid" id="top-logo"/>
+                    <img  src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.webp" alt="Autohaus Löhr, Fahrzeugzentrum Olpe" class="img-fluid" id="top-logo"/>
                 </a>
                 <a href="/" class="d-block d-xl-none">
                     <img  src="<?php bloginfo('stylesheet_directory'); ?>/images/FZ_Olpe_Logo_mobile.svg" alt="Autohaus Löhr, Fahrzeugzentrum Olpe" class="img-fluid" id="top-logo"/>
@@ -38,15 +38,15 @@
 
 <header class="container-fluid w-100 p-0 d-none d-xl-block" id="header">
 
-    
 
-    <div class="container py-4 px-4 px-xl-0" id="header-inner-container">
+
+    <div class="container py-2 px-4 px-xl-0" id="header-inner-container">
+    <?php get_template_part('template-parts/header/back','',array()) ?>
         <div class="row">
-
           
         <div class="col-9 col-xl-3">
-                <a href="/" class="d-none d-xl-block">
-                    <img  src="<?php bloginfo('stylesheet_directory'); ?>/images/FZ_Olpe_Logo.svg" alt="Autohaus Löhr, Fahrzeugzentrum Olpe" class="img-fluid" id="top-logo"/>
+                <a href="/" class="d-none d-xl-block ms-5 p-2">
+                    <img  src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.webp" alt="CeramicExperts" class="img-fluid" id="top-logo"/>
                 </a>
                 <a href="/" class="d-block d-xl-none">
                     <img  src="<?php bloginfo('stylesheet_directory'); ?>/images/FZ_Olpe_Logo_mobile.svg" alt="Autohaus Löhr, Fahrzeugzentrum Olpe" class="img-fluid" id="top-logo"/>

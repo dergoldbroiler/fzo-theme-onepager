@@ -1,5 +1,5 @@
 <?php
-
+add_filter('show_admin_bar', '__return_false');
 require_once('includes/shortcodes.php');
 
 if ( ! function_exists( 'theme_slug_setup' ) ) :

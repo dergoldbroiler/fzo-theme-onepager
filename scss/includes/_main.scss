@@ -20,7 +20,7 @@ body {
     
 
     #top-logo, .logofooter img {
-        max-width: 80%;
+        max-width: 65%;
     }
 
     .bg-blue {
@@ -117,9 +117,30 @@ body {
     #header, #header-mobile {
         z-index: 9999;
 
+        .back{
+            position: absolute;
+            margin-left: -360px;
+            background-color: #03223e;
+            height: 103px;
+            width: 360px;
+            clip-path: polygon(0 0, 100% 0%, 91% 100%, 0% 100%);
+            top: 0;
+
+            img {
+                max-width: 60%;
+                &#backto{
+                    max-width: 100%;
+                    width: 100%;
+                    
+                }
+            }
+        }
+      
         #header-inner-container{
+
+            background-color: #fff;
             @media (max-width: 1200px) {
-              background-color: $darkblue;
+                background-color: $darkblue;
               max-width: 100%;
             }
            
