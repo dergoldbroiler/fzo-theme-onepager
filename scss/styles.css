@@ -308,6 +308,16 @@ body #header .headercontent.more-margin-top, body #header-mobile .headercontent.
   flex-basis: 80%;
   padding-right: 20%;
 }
+@media (max-width: 1680px) {
+  .container .secondcol {
+    padding-right: 10%;
+  }
+}
+@media (max-width: 1500px) {
+  .container .secondcol {
+    padding-right: 3%;
+  }
+}
 .container .secondcol .contact {
   flex-basis: 60%;
 }
