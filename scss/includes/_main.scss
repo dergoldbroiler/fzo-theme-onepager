@@ -339,6 +339,9 @@ background: linear-gradient(90deg, rgba(3,34,62,1) 0%, rgba(3,34,62,1) 50%, rgba
         .secondcol {
             flex-basis: 80%;
             padding-right:20%;
+            @media(max-width:1680px) {
+                padding-right:10%;
+            }
             .contact{
                 flex-basis: 60%;
                 
