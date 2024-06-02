@@ -8,6 +8,12 @@ html {
   
 }
 
+.container {
+    max-width: 1920px;
+    margin: auto;
+    overflow-x: hidden;
+}
+
 body {
     
     width:100%;
@@ -19,7 +25,11 @@ body {
     color: $copyblue;
     
 
-    #top-logo, .logofooter img {
+    #top-logo {
+        max-width: 179px;
+    }
+
+    .logofooter img {
         max-width: 65%;
     }
 
@@ -100,7 +110,7 @@ body {
     }
 
     #page-wrap {
-        max-width: 1320px;
+        max-width: 1920px;
         height:100%;
         margin: auto;
         overflow-x: hidden;
@@ -118,11 +128,9 @@ body {
         z-index: 9999;
 
         .back{
-            position: absolute;
-            margin-left: -360px;
             background-color: #03223e;
-            height: 103px;
-            width: 360px;
+            height: 99px;
+            width: 100%;
             clip-path: polygon(0 0, 100% 0%, 91% 100%, 0% 100%);
             top: 0;
 
@@ -137,7 +145,7 @@ body {
         }
       
         #header-inner-container{
-
+            max-height:99px;
             background-color: #fff;
             @media (max-width: 1200px) {
                 background-color: $darkblue;

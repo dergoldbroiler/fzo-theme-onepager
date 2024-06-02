@@ -40,19 +40,21 @@
 
 
 
-    <div class="container py-2 px-4 px-xl-0" id="header-inner-container">
-    <?php get_template_part('template-parts/header/back','',array()) ?>
+    <div class="container  px-4 px-xl-0" id="header-inner-container">
+
         <div class="row">
-          
-        <div class="col-9 col-xl-3">
-                <a href="/" class="d-none d-xl-block ms-5 p-2">
+        <div class="col-3">
+             <?php get_template_part('template-parts/header/back','',array()) ?>
+               
+        </div>
+        <div class="col-3 d-flex flex-column justify-content-center">
+       
+                <a href="/" class="d-none d-xl-block ms-5">
                     <img  src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.webp" alt="CeramicExperts" class="img-fluid" id="top-logo"/>
                 </a>
-                <a href="/" class="d-block d-xl-none">
-                    <img  src="<?php bloginfo('stylesheet_directory'); ?>/images/FZ_Olpe_Logo_mobile.svg" alt="Autohaus Löhr, Fahrzeugzentrum Olpe" class="img-fluid" id="top-logo"/>
-                </a>
+             
             </div>
-            <div class="col-3 offset-xxl-3 col-xl-9 col-xxl-6">
+            <div class="col-6 d-flex flex-column justify-content-center">
                 <?php get_template_part('template-parts/header/contact','',array()) ?>
                 <?php get_template_part('template-parts/header/menubars','',array()) ?>
             </div>

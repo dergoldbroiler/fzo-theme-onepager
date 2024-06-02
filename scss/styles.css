@@ -23,6 +23,12 @@ html {
   font-size: 16px;
 }
 
+.container {
+  max-width: 1920px;
+  margin: auto;
+  overflow-x: hidden;
+}
+
 body {
   width: 100%;
   height: auto;
@@ -32,7 +38,10 @@ body {
   font-size: 16px;
   color: #062b4d;
 }
-body #top-logo, body .logofooter img {
+body #top-logo {
+  max-width: 179px;
+}
+body .logofooter img {
   max-width: 65%;
 }
 body .bg-blue {
@@ -108,7 +117,7 @@ body h1 a.beige, body h2 a.beige, body h3 a.beige, body h4 a.beige {
   color: #e8a422 !important;
 }
 body #page-wrap {
-  max-width: 1320px;
+  max-width: 1920px;
   height: 100%;
   margin: auto;
   overflow-x: hidden;
@@ -124,11 +133,9 @@ body #header, body #header-mobile {
   z-index: 9999;
 }
 body #header .back, body #header-mobile .back {
-  position: absolute;
-  margin-left: -360px;
   background-color: #03223e;
-  height: 103px;
-  width: 360px;
+  height: 99px;
+  width: 100%;
   clip-path: polygon(0 0, 100% 0%, 91% 100%, 0% 100%);
   top: 0;
 }
@@ -140,6 +147,7 @@ body #header .back img#backto, body #header-mobile .back img#backto {
   width: 100%;
 }
 body #header #header-inner-container, body #header-mobile #header-inner-container {
+  max-height: 99px;
   background-color: #fff;
 }
 @media (max-width: 1200px) {
@@ -279,7 +287,7 @@ body #header .headercontent.more-margin-top, body #header-mobile .headercontent.
 }
 
 #menucontainer {
-  background-color: #03223e;
+  background-color: #245861;
   min-height: 50px;
   position: relative;
   z-index: 9999;
