@@ -130,14 +130,21 @@ body {
             text-decoration: none;
         }
     }
-
+    #header{
+        background: rgb(3,34,62);
+background: linear-gradient(90deg, rgba(3,34,62,1) 0%, rgba(3,34,62,1) 50%, rgba(255,255,255,1) 52%, rgba(255,255,255,1) 100%);
+    }
     #header, #header-mobile {
         z-index: 9999;
 
         .back{
             background-color: #03223e;
             height: 99px;
-            width: 100%;
+            width: 360px;
+
+            @media (max-width: 1680px) {
+                width: 260px;
+            }
             clip-path: polygon(0 0, 100% 0%, 91% 100%, 0% 100%);
             top: 0;
 
@@ -158,6 +165,9 @@ body {
                 background-color: $darkblue;
               max-width: 100%;
             }
+
+
+           
            
         }
 
@@ -318,3 +328,22 @@ body {
         } 
       
     }
+
+
+
+    .container {
+
+        .firstcol {
+            flex-basis: 20%;
+        }
+        .secondcol {
+            flex-basis: 80%;
+            padding-right:20%;
+            .contact{
+                flex-basis: 60%;
+                
+            }
+        }
+    }
+
+

@@ -42,41 +42,41 @@
 
     <div class="container  px-4 px-xl-0" id="header-inner-container">
 
-        <div class="row">
-        <div class="col-3 pe-5">
-             <?php get_template_part('template-parts/header/back','',array()) ?>
-               
-        </div>
-        <div class="col-6 d-flex flex-column justify-content-center">
-                <div class="w-100 d-flex flex-row justify-content-between">
-                    <a href="/" class="d-none d-xxl-block">
-                        <img  src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.webp" alt="CeramicExperts" class="img-fluid" id="top-logo"/>
-                    </a>
+        <div class="w-100 d-flex flex-row justify-content-between align-items-center">
+     
+            <div class="firstcol">
+                <?php get_template_part('template-parts/header/back','',array()) ?>     
+            </div>
+            <div class="secondcol ms-4 d-flex flex-row justify-content-between align-items-center">
+                <a href="/" class="d-none d-xxl-block ms-4">
+                    <img  src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.webp" alt="CeramicExperts" class="img-fluid" id="top-logo"/>
+                </a>
+                <div class="contact">
                     <?php get_template_part('template-parts/header/contact','',array()) ?>
-                </div>       
-             
-        </div>
-        <div class="col-3">
-        </div>
+                </div> 
+            </div> 
+            
         </div>
     </div>    
     
     <div class="w-100" id="menucontainer">
 
         <div class="container px-0">
-            <div class="row">
-                <div class="col-3">
-                </div>
-                <div class="col-6 px-0">
-               
-                <?php
+            
+
+
+        <div class="w-100 d-flex flex-row justify-content-start align-items-center">
+     
+            <div class="firstcol">
+            
+            </div>
+            <div class="secondcol ms-4 d-flex flex-row justify-content-start align-items-center">
+            <?php
                   wp_nav_menu(array('menu' => 'mainmenu', 'menu_id'=>'mainmenu', 'container' => false, 'menu_class' => 'px-0'));
                 ?>
-
-</div>
-                <div class="col-3">
-                </div>    
-            </div>
+            </div> 
+            
+        </div>
         </div>
     </div>    
     
