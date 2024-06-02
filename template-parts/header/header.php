@@ -43,33 +43,40 @@
     <div class="container  px-4 px-xl-0" id="header-inner-container">
 
         <div class="row">
-        <div class="col-3">
+        <div class="col-3 pe-5">
              <?php get_template_part('template-parts/header/back','',array()) ?>
                
         </div>
-        <div class="col-3 d-flex flex-column justify-content-center">
-       
-                <a href="/" class="d-none d-xl-block ms-5">
-                    <img  src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.webp" alt="CeramicExperts" class="img-fluid" id="top-logo"/>
-                </a>
+        <div class="col-6 d-flex flex-column justify-content-center">
+                <div class="w-100 d-flex flex-row justify-content-between">
+                    <a href="/" class="d-none d-xxl-block">
+                        <img  src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.webp" alt="CeramicExperts" class="img-fluid" id="top-logo"/>
+                    </a>
+                    <?php get_template_part('template-parts/header/contact','',array()) ?>
+                </div>       
              
-            </div>
-            <div class="col-6 d-flex flex-column justify-content-center">
-                <?php get_template_part('template-parts/header/contact','',array()) ?>
-                <?php get_template_part('template-parts/header/menubars','',array()) ?>
-            </div>
+        </div>
+        <div class="col-3">
+        </div>
         </div>
     </div>    
     
     <div class="w-100" id="menucontainer">
 
         <div class="container px-0">
-        
+            <div class="row">
+                <div class="col-3">
+                </div>
+                <div class="col-6 px-0">
+               
+                <?php
+                  wp_nav_menu(array('menu' => 'mainmenu', 'menu_id'=>'mainmenu', 'container' => false, 'menu_class' => 'px-0'));
+                ?>
 
-                    <?php
-                        wp_nav_menu(array('menu' => 'mainmenu', 'menu_id'=>'mainmenu', 'container' => false, 'menu_class' => 'mleft'));
-                    ?>
-            
+</div>
+                <div class="col-3">
+                </div>    
+            </div>
         </div>
     </div>    
     
