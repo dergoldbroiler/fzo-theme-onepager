@@ -42,6 +42,13 @@ body {
     .bg-lightgrey{
         background-color: rgb(3, 34, 62, .03)
     }
+    .bg-lightgreen{
+        background-color: $lightgreen;
+        h1{
+            color: white;
+        
+        }
+    }
     h1{
         font-size:40px;
 

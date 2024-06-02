@@ -53,6 +53,12 @@ body .bg-darkblue {
 body .bg-lightgrey {
   background-color: rgba(3, 34, 62, 0.03);
 }
+body .bg-lightgreen {
+  background-color: rgb(32, 126, 142);
+}
+body .bg-lightgreen h1 {
+  color: white;
+}
 body h1 {
   font-size: 40px;
 }
