@@ -7,7 +7,7 @@
         array(
             'parent' => url_to_postid($args['id']),
             'posts_per_page' => '-1',
-            'order' => 'DESC',
+            'order' => 'asc',
             'post_type' => 'page',
             'post_parent' => url_to_postid($args['id']),
             'orderby' => 'date'
