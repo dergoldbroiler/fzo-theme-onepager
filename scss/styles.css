@@ -720,7 +720,7 @@ a:hover {
   background-position: center;
 }
 .posts-grid .single-post .single-post-image.bg-cover {
-  background-size: 100%;
+  background-size: cover !important;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1194,6 +1194,16 @@ p.email:before {
   .wp-block-column h2 {
     font-size: 22px;
   }
+}
+
+.bg-cover {
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.rotate-90 img {
+  transform: rotate(90deg);
 }
 
 #servicebar {

@@ -134,7 +134,7 @@ a{
                 background-position: center;
             }
             &.bg-cover{
-                background-size: 100%;
+                background-size: cover !important;
                 background-repeat: no-repeat;
                 background-position: center;
             }
@@ -668,3 +668,12 @@ p {
 }
 
 
+.bg-cover{
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.rotate-90 img{
+    transform: rotate(90deg);
+}

@@ -1,19 +1,21 @@
-<?php if( isset ($args['headline'])): ?>
-<?php endif; ?>
+
+
 
 <?php
 
     $subpages = get_posts(
         array(
-            'parent' => $post->ID,
+            'parent' => url_to_postid($args['id']),
             'posts_per_page' => '-1',
             'order' => 'DESC',
             'post_type' => 'page',
-            'post_parent' => $post->ID,
+            'post_parent' => url_to_postid($args['id']),
             'orderby' => 'date'
 
         )
     );
+
+
 
 
 ?>
