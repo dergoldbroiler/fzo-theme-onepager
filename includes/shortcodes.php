@@ -130,3 +130,12 @@ function getMap($atts){
 }
 
 add_shortcode( 'gmap', 'getMap' );
+
+function getSpalten($atts){
+    ob_start();
+    $content .= get_template_part('template-parts/shortcodes/spalten','',$atts);
+    $content .= ob_get_clean(); 
+    return $content;  
+}
+
+add_shortcode( 'spalten', 'getSpalten' );

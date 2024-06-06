@@ -26,7 +26,11 @@
 
                     
 
-                    <?php get_template_part('template-parts/onepager/keramikbeschichtung','',array()); ?>  
+                    <?php 
+                     
+                        echo apply_filters('the_content', get_post(get_field('keramikbeschichtung','options'))->post_content); 
+                    
+                    ?>  
             </div>   
         </div>
     </div>

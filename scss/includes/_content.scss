@@ -29,6 +29,13 @@ a{
     @media(max-width:992px){
         max-width: 100% !important;
     }
+
+    ul {
+        &.circle {
+            list-style-type: circle;
+            line-height: 2;
+        }
+    }
 }
 
 .posts-grid {
@@ -300,7 +307,7 @@ a{
         width: 35px;
         height: 5px;
         margin: 7.8px 16.3px 30.2px 0;
-        background-color: #e8a422;
+        background-color: #245861;
         display: inline-block;
         vertical-align: text-top;
     }

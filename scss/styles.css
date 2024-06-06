@@ -85,14 +85,17 @@ body h1.fw500, body h2.fw500, body h3.fw500, body h4.fw500 {
   font-weight: 500;
   font-family: "BarlowCondensed";
 }
+body h1.fs15, body h2.fs15, body h3.fs15, body h4.fs15 {
+  font-size: 15px !important;
+}
 body h1.fs16, body h2.fs16, body h3.fs16, body h4.fs16 {
-  font-size: 16px;
+  font-size: 16px !important;
 }
 body h1.fs23, body h2.fs23, body h3.fs23, body h4.fs23 {
-  font-size: 23px;
+  font-size: 23px !important;
 }
 body h1.fs18, body h2.fs18, body h3.fs18, body h4.fs18 {
-  font-size: 18px;
+  font-size: 18px !important;
 }
 body h1.fs20, body h2.fs20, body h3.fs20, body h4.fs20 {
   font-size: 20px;
@@ -320,6 +323,38 @@ body #header .headercontent.more-margin-top, body #header-mobile .headercontent.
 }
 .container .secondcol .contact {
   flex-basis: 60%;
+}
+
+p.fs15 {
+  font-size: 15px !important;
+}
+p.fs16 {
+  font-size: 16px !important;
+}
+p.fs23 {
+  font-size: 23px !important;
+}
+p.fs18 {
+  font-size: 18px !important;
+}
+p.fs20 {
+  font-size: 20px;
+}
+p.fs30 {
+  font-size: 30px;
+}
+p.fs36 {
+  font-size: 36px;
+}
+@media (max-width: 768px) {
+  p.fs36 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 480px) {
+  p.fs36 {
+    font-size: 24px;
+  }
 }
 
 #menucontainer {
@@ -612,6 +647,10 @@ a:hover {
     max-width: 100% !important;
   }
 }
+#main ul.circle {
+  list-style-type: circle;
+  line-height: 2;
+}
 
 .posts-grid {
   display: grid;
@@ -871,7 +910,7 @@ a:hover {
   width: 35px;
   height: 5px;
   margin: 7.8px 16.3px 30.2px 0;
-  background-color: #e8a422;
+  background-color: #245861;
   display: inline-block;
   vertical-align: text-top;
 }

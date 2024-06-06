@@ -15,7 +15,7 @@
             <?php endif; ?>    
 
             <?php if(isset($args['teaser'])) : ?>
-                <p class="banner-paragraph"><?php echo $args['teaser']; ?></p>
+                <p class="banner-paragraph fs15"><?php echo $args['teaser']; ?></p>
             <?php endif; ?>    
 
             <?php $urltext = "Mehr über uns";

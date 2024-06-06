@@ -82,14 +82,17 @@ body {
             font-weight: 500;
             font-family: 'BarlowCondensed';
         }
+        &.fs15{
+            font-size: 15px !important;
+        }
         &.fs16{
-            font-size: 16px;
+            font-size: 16px !important;
         }
         &.fs23{
-            font-size: 23px;
+            font-size: 23px !important;
         }
         &.fs18{
-            font-size: 18px;
+            font-size: 18px !important;
         }
         &.fs20{
             font-size: 20px;
@@ -357,3 +360,33 @@ background: linear-gradient(90deg, rgba(3,34,62,1) 0%, rgba(3,34,62,1) 50%, rgba
     }
 
 
+p {
+    &.fs15{
+        font-size: 15px !important;
+    }
+    &.fs16{
+        font-size: 16px !important;
+    }
+    &.fs23{
+        font-size: 23px !important;
+    }
+    &.fs18{
+        font-size: 18px !important;
+    }
+    &.fs20{
+        font-size: 20px;
+    }
+    &.fs30{
+        font-size: 30px;
+    }
+    &.fs36{
+        font-size: 36px;
+
+        @media(max-width: 768px){
+            font-size: 28px;
+        }
+        @media(max-width: 480px){
+            font-size: 24px;
+        }
+    }
+}
