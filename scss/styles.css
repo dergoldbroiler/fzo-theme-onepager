@@ -1058,6 +1058,13 @@ a.icon-arrow-white:before {
   }
 }
 
+div .lh16 {
+  line-height: 1.6;
+}
+
+p .lh16 {
+  line-height: 1.6;
+}
 p.telefon:before {
   content: " ";
   display: inline-block;

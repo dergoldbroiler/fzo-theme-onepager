@@ -38,7 +38,7 @@
             <div class="single-post bg-white p-5 d-flex flex-column justify-content-start h-100 mb-5">
           
                 <h3 class="my-4"><?= $headline ?></h3>
-                <div class="mb-1">    
+                <div class="mb-1 lh16">    
                     <?= $content ?>
                 </div>
                 </div> 

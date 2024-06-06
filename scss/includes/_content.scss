@@ -36,6 +36,7 @@ a{
             line-height: 2;
         }
     }
+
 }
 
 .posts-grid {
@@ -472,9 +473,15 @@ a{
     
     }
 }
-
+div {
+    .lh16 {
+        line-height: 1.6;
+    }
+}
 p {
-
+    .lh16 {
+        line-height: 1.6;
+    }
     &.telefon{
     
         &:before{
