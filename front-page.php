@@ -12,9 +12,25 @@
             <div class="container contentarea">
 
                     <?php echo do_shortcode('[subpages id="leistungen"]'); ?>
+
+                    <?php get_template_part('template-parts/onepager/keramikbschichtung','',array()); ?>  
             </div>   
         </div>
     </div>
+    <div class="row bg-lightgray pb-5">
+        <div class="col-12">
+        <h2 class="content-h2">Keramikbeschichtung</h2>
+        </div>
+        <div class="col-12 pb-5">
+            <div class="container contentarea">
+
+                    
+
+                    <?php get_template_part('template-parts/onepager/keramikbeschichtung','',array()); ?>  
+            </div>   
+        </div>
+    </div>
+ 
  
 
     
