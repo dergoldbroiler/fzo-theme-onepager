@@ -12,6 +12,8 @@
         $second = "content-55";
         $padding = "p43";
     endif;    
+
+    print_r($args);
 ?>
 <style>
     .p43{
