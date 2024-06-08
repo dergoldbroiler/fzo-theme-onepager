@@ -33,7 +33,7 @@
                             endif;
                         endif;  
                 ?>        
-<div class="col-12 col-lg-4 single-post-parent mb-3">
+<div class="col-12 col-lg-4 single-post-parent mb-3 pb-5">
             
             <div class="single-post bg-white p-5 d-flex flex-column justify-content-start h-100 mb-5">
           
