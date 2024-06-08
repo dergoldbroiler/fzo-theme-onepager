@@ -50,7 +50,7 @@ body .bg-blue {
 body .bg-darkblue {
   background-color: rgb(3, 34, 62);
 }
-body .bg-lightgrey {
+body .bg-lightgrey, body .bg-lightgray {
   background-color: rgba(3, 34, 62, 0.03);
 }
 body .bg-lightlightgrey {
