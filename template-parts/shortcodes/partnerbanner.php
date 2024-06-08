@@ -7,13 +7,12 @@
 
     if(isset($args['imageposition'])) : 
         $imageposition = $args['imageposition'];
-        $flex = "flex-lg-row";
+        $flex = "flex-lg-row-reverse";
         $first = "content-45";
         $second = "content-55";
         $padding = "p43";
     endif;    
 
-    print_r($args);
 ?>
 <style>
     .p43{
