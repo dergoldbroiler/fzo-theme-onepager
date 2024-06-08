@@ -1,7 +1,28 @@
-<div class="w-100 bg-white mt-5 ps-lg-5" id="partner-banner">
-    <div class="d-flex flex-column-reverse flex-lg-row h-100">
+<?php
+    $imageposition = "right";
+    $flex = "flex-lg-row";
+    $first = "content-55";
+    $second = "content-45";
+    $padding = "p43";
 
-        <div class="partner-content content-55 h-100 d-flex justify-content-center flex-column px-5 py-5 py-lg-0">
+    if(isset($args['imageposition'])) : 
+        $imageposition = $args['imageposition'];
+        $flex = "flex-lg-row";
+        $first = "content-45";
+        $second = "content-55";
+        $padding = "p43";
+    endif;    
+?>
+<style>
+    .p43{
+        padding: 43px !important
+    
+    }
+</style>    
+<div class="w-100 bg-white mt-5 ps-lg-5 <?= $padding ?>" id="partner-banner">
+    <div class="d-flex flex-column-reverse <?= $flex ?> h-100">
+
+        <div class="partner-content <?= $irst ?> h-100 d-flex justify-content-center flex-column px-5 py-5 py-lg-0">
 
         <?php 
             $subline = "Ihr Partner wenn’s ums Auto geht";
@@ -29,7 +50,7 @@
         </div>
         
         <?php if(isset($args['img'])) : ?>
-        <div class="partner-content content-45 image-bg p-0" style="background-image:url('<?php echo $args['img']; ?>')"></div>        
+        <div class="partner-content <?= $second ?> image-bg p-0" style="background-image:url('<?php echo $args['img']; ?>')"></div>        
         <?php endif; ?>     
     </div>
 </div>  

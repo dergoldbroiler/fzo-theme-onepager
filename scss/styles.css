@@ -72,6 +72,7 @@ body h1 {
 }
 body h1, body h2, body h3, body h4 {
   font-family: "BarlowBold";
+  color: rgb(6, 43, 77);
 }
 body h1.topline:before, body h2.topline:before, body h3.topline:before, body h4.topline:before {
   content: " ";
