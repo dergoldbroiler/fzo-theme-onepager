@@ -23,7 +23,7 @@
 <div class="w-100 bg-white mt-5 ps-lg-5 <?= $padding ?>" id="partner-banner">
     <div class="d-flex flex-column-reverse <?= $flex ?> h-100">
 
-        <div class="partner-content <?= $irst ?> h-100 d-flex justify-content-center flex-column px-5 py-5 py-lg-0">
+        <div class="partner-content <?= $first ?> h-100 d-flex justify-content-center flex-column px-5 py-5 py-lg-0">
 
         <?php 
             $subline = "Ihr Partner wenn’s ums Auto geht";
