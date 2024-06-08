@@ -53,6 +53,9 @@ body .bg-darkblue {
 body .bg-lightgrey {
   background-color: rgba(3, 34, 62, 0.03);
 }
+body .bg-lightlightgrey {
+  background-color: f7f9fa;
+}
 body .bg-lightgreen {
   background-color: rgb(32, 126, 142);
 }

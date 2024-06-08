@@ -17,34 +17,53 @@
             </div>   
         </div>
     </div>
+
+
+
+
+
     <div class="row bg-lightgray pb-5">
       
         <div class="col-12 pb-5">
             <div class="container contentarea">
 
                     
+                    <div class="w-100 p-0 m-0">
+                        <?php echo apply_filters('the_content', get_post(get_field('keramikbeschichtung','options'))->post_content); ?>  
+                    </div>    
 
-                    <?php 
                      
-                        echo apply_filters('the_content', get_post(get_field('keramikbeschichtung','options'))->post_content); 
-                    
-                    ?>  
-
-
-                <?php 
-                     
-                     echo apply_filters('the_content', get_post(get_field('lackaufbereitung','options'))->post_content); 
-                 
-                 ?>  
-
-<?php 
-                     
-                     echo apply_filters('the_content', get_post(get_field('trockeneisreinigung','options'))->post_content); 
-                 
-                 ?>     
             </div>   
         </div>
     </div>
+
+
+
+
+    <div class="row bg-lightlightgrey pb-5">
+      
+      <div class="col-12 pb-5">
+          <div class="container contentarea">
+
+                  <div class="w-100 p-0 m-0">
+                      <?php echo apply_filters('the_content', get_post(get_field('lackaufbereitung','options'))->post_content);  ?> 
+                  </div>  
+          </div>   
+      </div>
+  </div>
+
+
+  <div class="row bg-lightgray pb-5">
+      
+      <div class="col-12 pb-5">
+          <div class="container contentarea">
+
+                  <div class="w-100 p-0 m-0">
+                      <?php echo apply_filters('the_content', get_post(get_field('trockeneisreinigung','options'))->post_content); ?>  
+                  </div>     
+          </div>   
+      </div>
+  </div>
  
  
 
