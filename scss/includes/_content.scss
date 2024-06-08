@@ -264,7 +264,28 @@ a{
         
     }
 }
+.content-45 {
+    width: 45%;
+    @media (max-width: 992px) {
+        width: 100%;
+        
+    }
+}
+.content-50 {
+    width: 50%;
+    @media (max-width: 992px) {
+        width: 100%;
+        
+    }
+}
 
+.content-55 {
+    width: 55%;
+    @media (max-width: 992px) {
+        width: 100%;
+        
+    }
+}
 .content-60 {
     width: 60%;
     @media (max-width: 992px) {
