@@ -15,7 +15,7 @@
 ?>
 <style>
     .p43{
-        padding: 43px !important
+        padding-left: 43px !important
     
     }
 </style>    
