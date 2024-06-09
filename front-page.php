@@ -21,50 +21,27 @@
 
 
 
+    <?php for($i=1;$i<20;$i++): ?>
+        <?php if(get_field('content_'.$i)): ?>
+            <?php 
+            $bg = "bg-lightgray";
 
-    <div class="row bg-lightgray pb-5">
-      
-        <div class="col-12 pb-5">
-            <div class="container contentarea">
+            if($i % 2 == 0){
+                $bg = "bg-lightlightgrey";
+            }
+            ?>
+                <div class="row <?= $bg ?> pb-5">    
+                    <div class="col-12 pb-5">
+                        <div class="container contentarea">
+                                <div class="w-100 p-0 m-0">
+                                    <?php echo apply_filters('the_content', get_post(get_field('content_'.$i,'options'))->post_content);  ?> 
+                                </div>  
+                        </div>   
+                    </div>
+                </div>
+        <?php endif; ?>
+    <?php endfor; ?>        
 
-                    
-                    <div class="w-100 p-0 m-0">
-                        <?php echo apply_filters('the_content', get_post(get_field('keramikbeschichtung','options'))->post_content); ?>  
-                    </div>    
-
-                     
-            </div>   
-        </div>
-    </div>
-
-
-
-
-    <div class="row bg-lightlightgrey pb-5">
-      
-      <div class="col-12 pb-5">
-          <div class="container contentarea">
-
-                  <div class="w-100 p-0 m-0">
-                      <?php echo apply_filters('the_content', get_post(get_field('lackaufbereitung','options'))->post_content);  ?> 
-                  </div>  
-          </div>   
-      </div>
-  </div>
-
-
-  <div class="row bg-lightgray pb-5">
-      
-      <div class="col-12 pb-5">
-          <div class="container contentarea">
-
-                  <div class="w-100 p-0 m-0">
-                      <?php echo apply_filters('the_content', get_post(get_field('trockeneisreinigung','options'))->post_content); ?>  
-                  </div>     
-          </div>   
-      </div>
-  </div>
- 
  
 
     
