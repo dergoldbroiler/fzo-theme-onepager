@@ -22,7 +22,7 @@
 
 
     <?php for($i=1;$i<20;$i++): ?>
-        <?php if(get_field('content_'.$i)): ?>
+        <?php if(get_field('content_'.$i,'options')): ?>
             <?php 
             $bg = "bg-lightgray";
 
