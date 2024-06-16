@@ -19,6 +19,14 @@ function getPartnerBanner($atts){
 add_shortcode( 'partnerbanner', 'getPartnerBanner' );
 
 
+function getFAQ($atts){
+    ob_start();
+    $content .= get_template_part('template-parts/shortcodes/faq','',$atts);
+    $content .= ob_get_clean(); 
+    return $content;  
+}
+
+add_shortcode( 'faq', 'getFAQ' );
 function getContactBanner($atts){
     ob_start();
     $content .= get_template_part('template-parts/shortcodes/contactbanner','',$atts);
