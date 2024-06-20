@@ -1307,7 +1307,8 @@ p.email:before {
   margin-top: 20px;
 }
 .banner-list li {
-  font-size: 20px;
+  font-size: 16px;
+  line-height: 2;
 }
 
 #servicebar {
