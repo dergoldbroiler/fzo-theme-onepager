@@ -90,6 +90,8 @@
         var lightbox = new FsLightbox();
 
         var lightboxlinks = document.querySelectorAll('.lightbox-img');
+        var lightboxvideos = document.querySelectorAll('.lightbox-video');
+
         if(lightboxlinks){
             lightboxlinks.forEach(function(link){
                 link.setAttribute('data-fslightbox', '');
@@ -97,6 +99,19 @@
                 link.addEventListener('click', function(e){
                     e.preventDefault();
                     lightbox.props.sources = [link.querySelector('img').getAttribute('src')]
+                    lightbox.open();
+                    
+                });
+            });
+        }
+
+        if(lightboxvideos){
+            lightboxvideos.forEach(function(video){
+                video.setAttribute('data-fslightbox', '');
+                refreshFsLightbox();
+                video.addEventListener('click', function(e){
+                    e.preventDefault();
+                    lightbox.props.sources = [video.getAttribute('data-src')]
                     lightbox.open();
                     
                 });

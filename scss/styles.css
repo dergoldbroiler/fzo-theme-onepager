@@ -1297,7 +1297,7 @@ p.email:before {
   max-width: 1300px;
 }
 
-.lightblue {
+.lightbox-img, .lightbox-video {
   cursor: pointer;
 }
 

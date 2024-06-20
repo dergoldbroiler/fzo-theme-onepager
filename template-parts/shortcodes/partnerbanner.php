@@ -20,6 +20,9 @@
     
     }
 </style>    
+
+
+
 <div class="w-100 bg-white mt-5 ps-lg-5 <?= $padding ?>" id="partner-banner">
     <div class="d-flex flex-column-reverse <?= $flex ?> h-100">
 
@@ -53,5 +56,17 @@
         <?php if(isset($args['img'])) : ?>
         <div class="partner-content <?= $second ?> image-bg p-0" style="background-image:url('<?php echo $args['img']; ?>')"></div>        
         <?php endif; ?>     
+
+        <?php if(isset($args['video'])) : ?>
+            <?php //print_r($args);?>
+       
+        <div data-src="<?php echo $args['video']; ?>" class="partner-content lightbox-video <?= $second ?> image-bg p-0" style="background-image:url('<?php echo $args['thumbnail']; ?>')">
+            <div class="playbutton h-100 d-flex flex-column justify-content-center align-items-center">
+
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/play.svg" alt="playbutton" class="playbtn" />
+                <h3 class="text-center text-white">Video abspielen</h3>
+            </div>
+        </div> 
+        <?php endif; ?>  
     </div>
 </div>  
