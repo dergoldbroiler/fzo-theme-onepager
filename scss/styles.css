@@ -1301,6 +1301,15 @@ p.email:before {
   cursor: pointer;
 }
 
+.banner-list {
+  list-style-type: circle;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+.banner-list li {
+  font-size: 20px;
+}
+
 #servicebar {
   box-shadow: 0 33px 36px 0 rgba(93, 108, 123, 0.08);
   background: white;

@@ -41,6 +41,15 @@
 
             <?php if(isset($args['teaser'])) : ?>
                 <p class="banner-paragraph fs15"><?php echo $args['teaser']; ?></p>
+            <?php endif; ?> 
+            
+            <?php if(isset($args['list'])) : ?>
+                <ul class="banner-list fs15"><?php 
+                    $elms = explode("#",$args['list']);
+                    foreach($elms as $elm) : ?>
+                        <li><?= $elm ?></li>
+                    <?php endforeach; ?>
+                    </ul>
             <?php endif; ?>    
 
             <?php $urltext = "Mehr über uns";
@@ -49,6 +58,10 @@
              endif; ?> 
             <?php if(isset($args['url'])) : ?>
             <a class="banner-button" href="<?php echo $args['url']; ?>"><?= $urltext ?></a>
+            <?php endif; ?> 
+
+            <?php if(isset($args['buttonurl'])) : ?>
+            <a class="banner-button" href="<?php echo $args['buttonurl']; ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/icons/arrow_yellow.svg"></a>
             <?php endif; ?> 
 
         </div>

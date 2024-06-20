@@ -721,3 +721,12 @@ p {
 .lightbox-img, .lightbox-video{
 cursor: pointer;
 }
+
+.banner-list{
+    list-style-type:circle;
+    padding-left: 20px;
+    margin-top: 20px;
+    li{
+        font-size: 20px;
+    }
+}
