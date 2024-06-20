@@ -80,7 +80,29 @@
 <script src="<?php bloginfo('stylesheet_directory'); ?>/fontawesome/js/all.js"></script>
 <script type="module"  src="<?php bloginfo('stylesheet_directory'); ?>/js/myjs.js"></script>
 <script src="<?php bloginfo('stylesheet_directory'); ?>/js/slick/slick.js"></script>
+<script src="<?php bloginfo('stylesheet_directory'); ?>/js/fslightbox/fslightbox.js"></script>
 <script src="<?php bloginfo('stylesheet_directory'); ?>/js/lottie.js"></script>
 
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function(){
+        var lightbox = new FsLightbox();
+
+        var lightboxlinks = document.querySelectorAll('.lightbox-img');
+        if(lightboxlinks){
+            lightboxlinks.forEach(function(link){
+                link.setAttribute('data-fslightbox', '');
+                refreshFsLightbox();
+                link.addEventListener('click', function(e){
+                    e.preventDefault();
+                    lightbox.props.sources = [link.querySelector('img').getAttribute('src')]
+                    lightbox.open();
+                    
+                });
+            });
+        }
+    });
+</script>
 </body>
 </html>

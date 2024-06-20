@@ -329,34 +329,34 @@ body #header .headercontent.more-margin-top, body #header-mobile .headercontent.
   flex-basis: 60%;
 }
 
-p.fs15 {
+p.fs15, h2.fs15, h3.fs15 {
   font-size: 15px !important;
 }
-p.fs16 {
+p.fs16, h2.fs16, h3.fs16 {
   font-size: 16px !important;
 }
-p.fs23 {
+p.fs23, h2.fs23, h3.fs23 {
   font-size: 23px !important;
 }
-p.fs18 {
+p.fs18, h2.fs18, h3.fs18 {
   font-size: 18px !important;
 }
-p.fs20 {
+p.fs20, h2.fs20, h3.fs20 {
   font-size: 20px;
 }
-p.fs30 {
+p.fs30, h2.fs30, h3.fs30 {
   font-size: 30px;
 }
-p.fs36 {
+p.fs36, h2.fs36, h3.fs36 {
   font-size: 36px;
 }
 @media (max-width: 768px) {
-  p.fs36 {
+  p.fs36, h2.fs36, h3.fs36 {
     font-size: 28px;
   }
 }
 @media (max-width: 480px) {
-  p.fs36 {
+  p.fs36, h2.fs36, h3.fs36 {
     font-size: 24px;
   }
 }
@@ -1295,6 +1295,10 @@ p.email:before {
 
 .contentarea {
   max-width: 1300px;
+}
+
+.lightblue {
+  cursor: pointer;
 }
 
 #servicebar {
