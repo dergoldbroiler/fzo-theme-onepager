@@ -21,7 +21,7 @@
 ?>
 
 
-<div class="posts-grid p-0 w-100 mt-5 d-xl-none" id="subpages">
+<div class="posts-grid p-0 w-100 mt-5 d-xl-none <?= $args['id'] ?>" id="subpages">
 
     <?php 
     
@@ -33,7 +33,7 @@
     ?>
 </div>
 
-<div class="posts-grid p-0 w-100 mt-5 d-none d-xl-grid" id="">
+<div class="posts-grid p-0 w-100 mt-5 d-none d-xl-grid <?= $args['id'] ?>" id="">
 
     <?php 
     

@@ -731,3 +731,11 @@ cursor: pointer;
         line-height: 2;
     }
 }
+
+.arrowbtn img{
+    transform:rotate(-90deg);
+}
+
+.leistungen .arrowbtn img{
+    transform:unset
+}

@@ -1,6 +1,6 @@
 
 
-<div class="single-post bg-white modal-trigger sub-page-element">
+<div class="single-post bg-white modal-trigger sub-page-element subpage-<?= get_post($args->ID)->post_name; ?>">
     <?php if( has_post_thumbnail( $args->ID )): 
           $image = wp_get_attachment_image_src( get_post_thumbnail_id( $args->ID ), 'full' )[0];    
     ?>
@@ -15,9 +15,9 @@
             <p class="teaser mb-4"><?php echo get_post_meta($args->ID,'teaser',true); ?></p>
         <?php endif; ?>    
 
-        <?php if(get_post_meta($args->ID,'fullteaser',true)): ?><br>
+        <?php if(get_post_meta($args->ID,'fullteaser',true)): ?>
             <?php echo apply_filters('the_content',get_post_meta($args->ID,'fullteaser',true)); ?>
         <?php endif; ?>   
-        <a href="<?php echo get_permalink($args->ID); ?>" class="rotate-90"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/icons/arrow_yellow.svg"></a>
+        <a href="<?php echo get_permalink($args->ID); ?>" class="arrowbtn"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/icons/arrow_yellow.svg"></a>
     </div>
 </div>
