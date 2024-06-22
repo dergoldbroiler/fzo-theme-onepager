@@ -9,7 +9,7 @@
             <h1 class="text-center m-0 mt-5 m-lg-5 p-5 fs36" id="ceramic-experts-top">Ceramic Experts bietet Produkte und insbesondere <br>deren Dienstleistungen für hochklassige, langhaltende <br>und beständige Keramikbeschichtungen.</h1> 
         </div>
         <div class="col-12 pb-5">
-            <div class="container contentarea">
+            <div class="container p-5 contentarea">
 
                     <?php echo do_shortcode('[subpages id="leistungen"]'); ?>
 
@@ -32,7 +32,7 @@
             ?>
                 <div class="row <?= $bg ?> pb-5">    
                     <div class="col-12 pb-5">
-                        <div class="container contentarea">
+                        <div class="container p-5 contentarea">
                                 <div class="w-100 p-0 m-0">
                                     <?php echo apply_filters('the_content', get_post(get_field('content_'.$i,'options'))->post_content);  ?> 
                                 </div>  
