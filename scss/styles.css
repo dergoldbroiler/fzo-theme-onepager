@@ -1307,7 +1307,12 @@ p.email:before {
   margin-top: 20px;
 }
 .banner-list li, .single-post ul li {
+  font-size: 18px;
   line-height: 2;
+}
+
+body p.teaser {
+  font-size: 18px;
 }
 
 .single-post ul {
