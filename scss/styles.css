@@ -1310,6 +1310,10 @@ p.email:before {
   line-height: 2;
 }
 
+.single-post ul {
+  margin-top: 0px;
+}
+
 .arrowbtn img {
   transform: rotate(-90deg);
 }
