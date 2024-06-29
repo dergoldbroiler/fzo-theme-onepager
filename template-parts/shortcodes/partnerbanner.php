@@ -19,6 +19,12 @@
         padding-left: 43px !important
     
     }
+
+    @media(max-width:1200px){
+        .p43{
+            padding-left: 0px !important
+        }
+    }
 </style>    
 
 
