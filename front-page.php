@@ -1,12 +1,20 @@
 <?php get_header(); ?>
 
 
+<?php
+$headline = "Ceramic Experts bietet Produkte und insbesondere <br>deren Dienstleistungen für hochklassige, langhaltende <br>und beständige Keramikbeschichtungen.";
+
+if(get_field('headline','options')){
+    $headline = get_field('headline','options');
+}
+?>
+
 
 <div class="container-fluid p-0" id="main">
 
     <div class="row bg-lightgreen pb-5">
         <div class="col-12 pt-4">
-            <h1 class="text-center m-0 mt-5 m-lg-5 p-0 p-xl-5 fs36" id="ceramic-experts-top">Ceramic Experts bietet Produkte und insbesondere <br>deren Dienstleistungen für hochklassige, langhaltende <br>und beständige Keramikbeschichtungen.</h1> 
+            <h1 class="text-center m-0 mt-5 m-lg-5 p-0 p-xl-5 fs36" id="ceramic-experts-top"><?= $headline ?></h1> 
         </div>
         <div class="col-12 pb-5">
             <div class="container p-0 px-xl-5 contentarea">
