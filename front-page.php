@@ -33,7 +33,7 @@
                 <div class="row <?= $bg ?> pb-5">    
                     <div class="col-12 pb-5">
                         <div class="container p-0 p-xl-5 contentarea">
-                                <div class="w-100 p-0 m-0">
+                                <div class="w-100  px-4 px-xl-0  m-0">
                                     <?php echo apply_filters('the_content', get_post(get_field('content_'.$i,'options'))->post_content);  ?> 
                                 </div>  
                         </div>   

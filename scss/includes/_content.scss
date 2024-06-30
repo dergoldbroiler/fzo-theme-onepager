@@ -259,21 +259,30 @@ a{
 
 .content-40 {
     width: 40%;
-    flex-basis: 40%;
+    flex-basis: 40%; @media (max-width:1200px) {
+        width: 50%; flex-basis: 50%;
+        
+    }
     @media (max-width: 992px) {
         width: 100%;
         flex-basis: 100%;;
     }
 }
 .content-45 {
-    width: 45%; flex-basis: 45%;
+    width: 45%; flex-basis: 45%; @media (max-width:1200px) {
+        width: 50%; flex-basis: 50%;
+        
+    }
     @media (max-width: 992px) {
         width: 100%;flex-basis: 100%;
         
     }
 }
 .content-50 {
-    width: 50%; flex-basis: 55%;
+    width: 50%; flex-basis: 55%; @media (max-width:1200px) {
+        width: 50%; flex-basis: 50%;
+        
+    }
     @media (max-width: 992px) {
         width: 100%; flex-basis: 100%;
         
@@ -282,13 +291,20 @@ a{
 
 .content-55 {
     width: 55%; flex-basis: 55%;
+    @media (max-width:1200px) {
+        width: 50%; flex-basis: 50%;
+        
+    }
     @media (max-width: 992px) {
         width: 100%; flex-basis: 100%;
         
     }
 }
 .content-60 {
-    width: 60%;flex-basis: 60%;
+    width: 60%;flex-basis: 60%; @media (max-width:1200px) {
+        width: 50%; flex-basis: 50%;
+        
+    }
     @media (max-width: 992px) {
         width: 100%; flex-basis: 100%;
         

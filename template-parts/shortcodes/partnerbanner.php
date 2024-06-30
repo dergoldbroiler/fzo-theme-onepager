@@ -20,7 +20,7 @@
     
     }
 
-    @media(max-width:1200px){
+    @media(max-width:992px){
         .p43{
             padding-left: 0px !important
         }

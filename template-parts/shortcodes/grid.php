@@ -21,7 +21,7 @@
 ?>
 
 
-<div class="posts-grid  w-100 mt-5 d-xl-none <?= $args['id'] ?>" id="subpages">
+<div class="posts-grid px-0 w-100 mt-5 d-xl-none <?= $args['id'] ?>" id="subpages">
 
     <?php 
     
