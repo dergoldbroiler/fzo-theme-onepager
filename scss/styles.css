@@ -728,10 +728,6 @@ a:hover {
     margin-right: auto;
     margin-left: auto;
   }
-  .posts-grid .single-post.sub-page-element {
-    margin-right: 1.5rem !important;
-    margin-left: 1.5rem !important;
-  }
 }
 .posts-grid .single-post a {
   text-decoration: none;
