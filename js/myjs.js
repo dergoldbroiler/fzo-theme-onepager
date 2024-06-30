@@ -3,7 +3,7 @@ var sliderbreakpoint = 1200;
 
 const toggleMenu = () => {
   const menuToggle = document.querySelector('#nav-icon');
-  const navigation = document.querySelector('#mainmenu');
+  const navigation = document.querySelector('#mobmenu');
   menuToggle.addEventListener('click', function(e) {
     e.preventDefault();
     menuToggle.classList.toggle('open');

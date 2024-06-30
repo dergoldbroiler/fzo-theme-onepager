@@ -167,6 +167,23 @@ body #header .back img#backto, body #header-mobile .back img#backto {
   max-width: 100%;
   width: 100%;
 }
+body #header .back-mobile, body #header-mobile .back-mobile {
+  background-color: #03223e;
+  height: 99px;
+  width: 360px;
+}
+@media (max-width: 1680px) {
+  body #header .back-mobile, body #header-mobile .back-mobile {
+    width: 100%;
+  }
+}
+body #header .back-mobile img, body #header-mobile .back-mobile img {
+  max-width: 60%;
+}
+body #header .back-mobile img#backto, body #header-mobile .back-mobile img#backto {
+  max-width: 100%;
+  width: 100%;
+}
 body #header #header-inner-container, body #header-mobile #header-inner-container {
   max-height: 99px;
   background-color: #fff;
@@ -195,7 +212,7 @@ body #header .contact, body #header-mobile .contact {
 }
 @media (max-width: 1400px) {
   body #header .contact, body #header-mobile .contact {
-    padding-right: 0px;
+    padding-right: 50px;
     padding-left: 50px;
   }
 }
@@ -327,6 +344,11 @@ body #header .headercontent.more-margin-top, body #header-mobile .headercontent.
 .container .secondcol .contact {
   flex-basis: 60%;
 }
+@media (max-width: 1500px) {
+  .container .secondcol .contact {
+    flex-basis: 78%;
+  }
+}
 
 p.fs15, h2.fs15, h3.fs15 {
   font-size: 15px !important;
@@ -360,6 +382,19 @@ p.fs36, h2.fs36, h3.fs36 {
   }
 }
 
+@media (max-width: 992px) {
+  #ceramic-experts-top {
+    width: 96%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    position: relative;
+    bottom: -30px;
+  }
+  #ceramic-experts-top br {
+    display: none;
+  }
+}
+
 #menucontainer {
   background-color: #245861;
   min-height: 50px;
@@ -377,6 +412,17 @@ p.fs36, h2.fs36, h3.fs36 {
     padding: 0;
   }
 }
+#menucontainer .container#mobmenu {
+  flex-direction: column;
+  max-width: 100%;
+  height: 1px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+#menucontainer .container#mobmenu.open {
+  height: 100vh;
+  overflow: auto;
+}
 #menucontainer ul {
   display: flex;
   list-style: none;
@@ -387,13 +433,6 @@ p.fs36, h2.fs36, h3.fs36 {
   #menucontainer ul {
     flex-direction: column;
     max-width: 100%;
-    height: 1px;
-    overflow: hidden;
-    transition: all 0.3s ease-in-out;
-  }
-  #menucontainer ul.open {
-    height: 100vh;
-    overflow: auto;
   }
 }
 #menucontainer ul li {
