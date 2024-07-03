@@ -15,8 +15,10 @@
         )
     );
 
-
-
+$padding = "px-xl-5";
+if(isset($args['padding']) && $args['padding'] == "0"){
+    $padding = "px-0";
+}
 
 ?>
 
@@ -33,7 +35,9 @@
     ?>
 </div>
 
-<div class="posts-grid  w-100 mt-5 px-xl-5 d-none d-xl-grid <?= $args['id'] ?>" id="">
+
+
+<div class="posts-grid  w-100 mt-5 <?= $args['padding'] ?> d-none d-xl-grid <?= $args['id'] ?>" id="">
 
     <?php 
     
