@@ -764,3 +764,7 @@ body p.teaser{
 strong, b {
     font-family: "BarlowBold";
 }
+
+#subpages .container .row .single-post-parent:last-child .single-post {
+    margin-right: 0 !important;
+}

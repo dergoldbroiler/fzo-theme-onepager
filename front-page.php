@@ -17,7 +17,7 @@ if(get_field('headline','options')){
             <h1 class="text-center m-0 mt-5 m-lg-5 p-0 p-xl-0 fs36" id="ceramic-experts-top"><?= $headline ?></h1> 
         </div>
         <div class="col-12 pb-5">
-            <div class="container p-0  contentarea">
+            <div class="container  p-0 p-xl-5  contentarea">
 
                     <?php echo do_shortcode('[subpages id="leistungen"]'); ?>
 

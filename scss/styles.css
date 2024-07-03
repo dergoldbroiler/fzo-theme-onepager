@@ -1408,6 +1408,10 @@ strong, b {
   font-family: "BarlowBold";
 }
 
+#subpages .container .row .single-post-parent:last-child .single-post {
+  margin-right: 0 !important;
+}
+
 #servicebar {
   box-shadow: 0 33px 36px 0 rgba(93, 108, 123, 0.08);
   background: white;

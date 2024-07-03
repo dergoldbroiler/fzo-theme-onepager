@@ -1,6 +1,7 @@
-
+<div class="col-12 col-lg-4 single-post-parent mb-3 pb-5">
 
 <div class="single-post bg-white modal-trigger sub-page-element subpage-<?= get_post($args->ID)->post_name; ?>">
+
     <?php if( has_post_thumbnail( $args->ID )): 
           $image = wp_get_attachment_image_src( get_post_thumbnail_id( $args->ID ), 'full' )[0];    
     ?>
@@ -20,4 +21,4 @@
         <?php endif; ?>   
         <a href="<?php echo get_permalink($args->ID); ?>" class="arrowbtn"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/icons/arrow_yellow.svg"></a>
     </div>
-</div>
+</div></div>

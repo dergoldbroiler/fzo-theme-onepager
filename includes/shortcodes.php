@@ -60,7 +60,7 @@ add_shortcode( 'grid', 'getPostTypeGrid' );
 
 function getSubpages($atts){
     ob_start();
-    $content .= get_template_part('template-parts/shortcodes/grid','',$atts);
+    $content .= get_template_part('template-parts/shortcodes/subpages','',$atts);
     $content .= ob_get_clean(); 
     return $content;  
 }
