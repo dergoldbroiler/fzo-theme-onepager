@@ -16,14 +16,12 @@
     );
 
 $padding = "px-xl-5";
-if(isset($args['padding']) && $args['padding'] == "0"){
-    $padding = "px-0";
-}
+
 
 ?>
 
 
-<div class="posts-grid px-0 w-100 mt-5 d-xl-none <?= $args['id'] ?>" id="subpages">
+<div class="posts-grid  w-100 mt-5 d-xl-none <?= $args['id'] ?>" id="subpages">
 
     <?php 
     
@@ -37,7 +35,7 @@ if(isset($args['padding']) && $args['padding'] == "0"){
 
 
 
-<div class="posts-grid  w-100 mt-5 <?= $args['padding'] ?> d-none d-xl-grid <?= $args['id'] ?>" id="">
+<div class="posts-grid  w-100 mt-5  d-none d-xl-grid <?= $args['id'] ?>" id="">
 
     <?php 
     
