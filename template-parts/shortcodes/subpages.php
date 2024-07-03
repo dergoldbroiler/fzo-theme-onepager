@@ -21,7 +21,7 @@ $padding = "px-xl-5";
 ?> 
 
 
-<div class="w-100  px-4 px-xl-0  m-0" id="subpages">
+<div class="w-100  px-0 px-xl-0  m-0" id="subpages">
 <div class="container p-0">
 
     <div class="row">
