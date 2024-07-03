@@ -131,33 +131,15 @@ const setSlickSlider = (element)  => {
 document.addEventListener('DOMContentLoaded', function(e) {
   toggleMenu();
   triggerModal();
-  wehiko(); 
+  
   stickyMenu(); 
-  setSlickSlider('#frontpage-posts');
+
  //setSlickSlider('.ads');
 
-  if(document.querySelector('#team')) {
- //   setSlickSlider('#team');
-  }
-
-  if(document.querySelector('#subpages')) {
- //   setSlickSlider('#subpages');
-  }
-});
-
-window.addEventListener('resize', function(e) {
-  setSlickSlider('#frontpage-posts'); 
- // setSlickSlider('.ads');
   
-
-  if(document.querySelector('#team')) {
- //   setSlickSlider('#team');
-  }
-
-  if(document.querySelector('#subpages')) {
-//    setSlickSlider('#subpages');
-  }
 });
+
+
 
 document.body.addEventListener('scroll', function(e) {
   console.log(window.scrollY)

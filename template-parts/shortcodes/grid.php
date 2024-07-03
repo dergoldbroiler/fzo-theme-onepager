@@ -33,7 +33,7 @@
     ?>
 </div>
 
-<div class="posts-grid  w-100 mt-5 d-none d-xl-grid <?= $args['id'] ?>" id="">
+<div class="posts-grid  w-100 mt-5 px-xl-5 d-none d-xl-grid <?= $args['id'] ?>" id="">
 
     <?php 
     
