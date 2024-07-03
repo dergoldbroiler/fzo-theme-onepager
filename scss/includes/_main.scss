@@ -34,10 +34,10 @@ body {
     }
 
     .bg-blue {
-        background-color: rgba(3, 34, 62,.3);
+        background-color: #245861
     }
     .bg-darkblue {
-        background-color: rgba(3, 34, 62,1);
+        background-color: #245861
     }
     .bg-lightgrey, .bg-lightgray{
         background-color: rgba(3, 34, 62, .03)
@@ -312,7 +312,7 @@ background: linear-gradient(90deg, rgba(3,34,62,1) 0%, rgba(3,34,62,1) 50%, rgba
 
 
 .sticky {
-    height: 76px;
+    height: 67px;
     top:0;
     position: fixed !important;
     z-index: 9999;

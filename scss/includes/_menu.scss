@@ -238,18 +238,17 @@ width: 70%;
 #mainmenu {
     display: flex;
     list-style: none;
-    justify-content: space-between;
+    justify-content: start;
     @media(max-width:992px) {
       flex-direction: column;
       padding-bottom: 10px;
     }
     li {
-        margin-left: 20px;display: none;
+        margin-left: 40px;
         &:first-child {
-            @media(min-width:993px) {
+            @media(max-width:993px) {
                 margin-left: 0px;
               }
-
 
         }
 

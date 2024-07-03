@@ -44,10 +44,10 @@ body .logofooter img {
   max-width: 65%;
 }
 body .bg-blue {
-  background-color: rgba(3, 34, 62, 0.3);
+  background-color: #245861;
 }
 body .bg-darkblue {
-  background-color: rgb(3, 34, 62);
+  background-color: #245861;
 }
 body .bg-lightgrey, body .bg-lightgray {
   background-color: rgba(3, 34, 62, 0.03);
@@ -288,7 +288,7 @@ body #header .headercontent.more-margin-top, body #header-mobile .headercontent.
 }
 
 .sticky {
-  height: 76px;
+  height: 67px;
   top: 0;
   position: fixed !important;
   z-index: 9999;
@@ -612,7 +612,7 @@ p.fs36, h2.fs36, h3.fs36 {
 .menufooter #mainmenu {
   display: flex;
   list-style: none;
-  justify-content: space-between;
+  justify-content: start;
 }
 @media (max-width: 992px) {
   .menufooter #mainmenu {
@@ -621,10 +621,9 @@ p.fs36, h2.fs36, h3.fs36 {
   }
 }
 .menufooter #mainmenu li {
-  margin-left: 20px;
-  display: none;
+  margin-left: 40px;
 }
-@media (min-width: 993px) {
+@media (max-width: 993px) {
   .menufooter #mainmenu li:first-child {
     margin-left: 0px;
   }
