@@ -6,7 +6,7 @@
 
                 <div class="logofooter pe-5 pe-lg-0">
                     <a href="<?php echo get_home_url(); ?>">
-                        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/FZ_Olpe_Logo_mobile.svg" alt="Logo" class="img-fluid">
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.webp" alt="Logo" class="img-fluid">
                     </a>
                 </div>      
                 <div class="menufooter d-flex">
