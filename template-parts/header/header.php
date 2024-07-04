@@ -7,10 +7,10 @@
         <div class="row">
            <div class="col-9 col-xl-3">
                 <a href="/" class="d-none d-xl-block">
-                    <img  src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.webp" alt="Autohaus Löhr, Fahrzeugzentrum Olpe" class="img-fluid" id="top-logo"/>
+                    <img  src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.webp" alt="Autohaus Löhr, Fahrzeugzentrum Olpe" class="img-fluid" id="top-logo" />
                 </a>
                 <a href="/" class="d-block d-xl-none">
-                    <img  src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.webp" alt="Autohaus Löhr, Fahrzeugzentrum Olpe" class="img-fluid" id="top-logo"/>
+                    <img  src="<?php bloginfo('stylesheet_directory'); ?>/images/Ceramic-Logo-White.svg" alt="Autohaus Löhr, Fahrzeugzentrum Olpe" class="img-fluid" id="top-logo"/>
                 </a>
             </div>
             <div class="col-3 offset-xxl-3 col-xl-6">

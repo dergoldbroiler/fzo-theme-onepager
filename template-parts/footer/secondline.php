@@ -4,9 +4,9 @@
 
             <div class="d-flex w-100 flex-column flex-lg-row justify-content-start align-items-center py-5">
 
-                <div class="logofooter pe-5 pe-lg-0">
+                <div class="logofooter ps-0 ps-lg-5 pe-5 pe-lg-0">
                     <a href="<?php echo get_home_url(); ?>">
-                        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.webp" alt="Logo" class="img-fluid">
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/Ceramic-Logo-White.svg" class="footerlogo" alt="Logo" class="img-fluid">
                     </a>
                 </div>      
                 <div class="menufooter d-flex">

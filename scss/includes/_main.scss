@@ -27,6 +27,11 @@ body {
 
     #top-logo {
         max-width: 179px;
+
+        @media(max-width: 1200px) {
+            position: relative;
+            top:-5px
+        }
     }
 
     .logofooter img {

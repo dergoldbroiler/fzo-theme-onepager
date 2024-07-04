@@ -40,6 +40,12 @@ body {
 body #top-logo {
   max-width: 179px;
 }
+@media (max-width: 1200px) {
+  body #top-logo {
+    position: relative;
+    top: -5px;
+  }
+}
 body .logofooter img {
   max-width: 65%;
 }
@@ -618,14 +624,15 @@ p.fs36, h2.fs36, h3.fs36 {
   .menufooter #mainmenu {
     flex-direction: column;
     padding-bottom: 10px;
+    margin-left: 20px !important;
   }
 }
 .menufooter #mainmenu li {
-  margin-left: 40px;
+  margin-right: 40px;
 }
 @media (max-width: 993px) {
   .menufooter #mainmenu li:first-child {
-    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 .menufooter #mainmenu li a {
