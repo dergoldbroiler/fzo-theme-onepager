@@ -14,7 +14,7 @@ if(get_field('headline','options')){
 
     <div class="row bg-lightgreen pb-5">
         <div class="col-12 pt-4">
-            <h1 class="text-center m-0 mt-5 m-lg-5 p-0 p-xl-5 fs36 pb-0 pb-xl-0" id="ceramic-experts-top"><?= $headline ?></h1> 
+            <h1 class="text-center m-0 mt-5 m-lg-5 p-0 p-xl-5 fs36 pb-xl-0 py-4" id="ceramic-experts-top"><?= $headline ?></h1> 
         </div>
         <div class="col-12 pb-5">
             <div class="container  p-0 p-xl-5  contentarea">

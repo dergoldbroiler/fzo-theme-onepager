@@ -394,7 +394,7 @@ p.fs36, h2.fs36, h3.fs36 {
     margin-left: auto !important;
     margin-right: auto !important;
     position: relative;
-    bottom: -30px;
+    bottom: 10px;
   }
   #ceramic-experts-top br {
     display: none;
@@ -1484,7 +1484,6 @@ strong, b {
   .partner-content.image-bg:after {
     content: "";
     display: block;
-    background-image: url("../images/yellow_sidebar.webp");
     width: 100%;
     height: 10px;
     background-size: 100%;
@@ -1493,7 +1492,7 @@ strong, b {
   }
 }
 
-#partner-banner {
+.partner-banner {
   height: 500px;
   box-shadow: 0 33px 36px 0 rgba(93, 108, 123, 0.08);
   background-image: url("../images/yellow_sidebar.webp");
@@ -1502,9 +1501,8 @@ strong, b {
   background-repeat: no-repeat;
 }
 @media (max-width: 992px) {
-  #partner-banner {
-    height: auto;
-    background-image: none;
+  .partner-banner {
+    background-image: unset;
   }
 }
 

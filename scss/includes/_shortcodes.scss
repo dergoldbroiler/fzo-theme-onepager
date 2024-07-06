@@ -38,7 +38,7 @@
         &:after{
             content:"";
             display: block;
-            background-image: url('../images/yellow_sidebar.webp');
+           
             width: 100%;
             height: 10px;
             background-size: 100%;
@@ -48,7 +48,7 @@
     }
 }
 
-#partner-banner {
+.partner-banner {
     height:500px;  
     box-shadow: 0 33px 36px 0 rgba(93, 108, 123, 0.08);
     background-image: url('../images/yellow_sidebar.webp');
@@ -56,15 +56,12 @@
     background-size: contain;
     background-repeat: no-repeat;
     @media(max-width:992px){
-        height: auto;
-        background-image: none;
+       
+        background-image: unset
      } 
     
 }
 
-#partner-banner {
-   
-}
 
 #team, #subpages {
     @media screen and (max-width: 1200px) {
