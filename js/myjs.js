@@ -9,6 +9,12 @@ const toggleMenu = () => {
     menuToggle.classList.toggle('open');
   navigation.classList.toggle('open');
   });
+
+  navigation.querySelectorAll('li a').forEach(element => {
+    element.addEventListener('click', e => {
+       navigation.classList.remove('open');
+    })
+  });
   
 }
 

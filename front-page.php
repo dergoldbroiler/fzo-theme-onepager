@@ -29,8 +29,11 @@ if(get_field('headline','options')){
 
 
 
+   
     <?php for($i=1;$i<20;$i++): ?>
         <?php if(get_field('content_'.$i,'options')): ?>
+        
+         <?php if( get_post(get_field('content_'.$i,'options'))->post_status == "publish"): ?>
             <?php 
             $bg = "bg-lightgray";
 
@@ -38,7 +41,7 @@ if(get_field('headline','options')){
                 $bg = "bg-lightlightgrey";
             }
             ?>
-                <div class="row <?= $bg ?> pb-5">    
+                <div class="row <?= $bg ?> pb-5" id="<?= get_field('anker_'.$i,'options'); ?>">    
                     <div class="col-12 pb-5">
                         <div class="container p-0 p-xl-5 contentarea">
                                 <div class="w-100  px-4 px-xl-0  m-0">
@@ -47,10 +50,10 @@ if(get_field('headline','options')){
                         </div>   
                     </div>
                 </div>
+  <?php endif; ?>
         <?php endif; ?>
     <?php endfor; ?>        
 
- 
 
     
 
