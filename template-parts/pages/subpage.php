@@ -19,6 +19,18 @@
         <?php if(get_post_meta($args->ID,'fullteaser',true)): ?>
             <?php echo apply_filters('the_content',get_post_meta($args->ID,'fullteaser',true)); ?>
         <?php endif; ?>   
-        <a href="<?php echo get_permalink($args->ID); ?>" class="arrowbtn"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/icons/arrow_yellow.svg"></a>
+        <?php 
+      $anker = "#";
+      $modal = "";
+      if(get_post_meta($args->ID,'anker',true)): ?>
+            <?php $anker = get_post_meta($args->ID,'anker',true); ?>
+      
+        <?php else: $modal="modal"; endif; 
+      
+      if(get_post_meta($args->ID,'modal',true)): ?>
+            <?php $modal = get_post_meta($args->ID,'modal',true); ?>
+        <?php endif; ?>   
+      
+        <a href="#<?= $anker ?>" class="arrowbtn <?= $modal ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/icons/arrow_yellow.svg"></a>
     </div>
 </div></div>
