@@ -34,6 +34,8 @@
     
 </footer>
 
+<a href="#" class="to-top d-none" id="scroll-to-top" aria-label="Zum Seitenanfang scrollen"><i class="fas fa-arrow-up"></i></a>
+
 
 <?php get_template_part('template-parts/modalcontent'); ?>
 <?php wp_footer(); ?>
@@ -79,6 +81,23 @@
                     
                 });
             });
+        }
+
+        let totop = document.querySelector('to-top');
+        totop.addEventListener('click', function(e){
+            e.preventDefault();
+            window.scrollTo(0,0);
+        });
+
+
+    });
+
+    window.addEventListener('scroll', function(){
+        let totop = document.querySelector('.to-top');
+        if(window.scrollY > 100){
+            totop.classList.remove('d-none');
+        }else{
+            totop.classList.add('d-none');
         }
     });
 </script>

@@ -1410,6 +1410,30 @@ body p.teaser {
   transform: unset;
 }
 
+.to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  background-color: #245861;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+.to-top img {
+  width: 20px;
+}
+
+.totop img {
+  transform: rotate(-180deg);
+}
+
 strong, b {
   font-family: "BarlowBold";
 }
