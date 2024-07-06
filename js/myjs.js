@@ -22,7 +22,7 @@ const triggerModal = () => {
   const modal = document.querySelector('#interim-modal');
   const modalClose = document.querySelector('.modal-close');
 modalTrigger.forEach(function(trigger) {
-  if(trigger.classList.contains('modal')) {
+  if(trigger.classList.contains('modale')) {
   trigger.setAttribute('data-bs-toggle', 'modal');
   trigger.setAttribute('data-bs-target', '#interim-modal');
 }

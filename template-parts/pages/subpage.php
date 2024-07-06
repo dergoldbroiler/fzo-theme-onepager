@@ -25,7 +25,7 @@
       if(get_post_meta($args->ID,'anker',true)): ?>
             <?php $anker = get_post_meta($args->ID,'anker',true); ?>
       
-        <?php else: $modal="modal"; endif; 
+        <?php else: $modal="modale"; endif; 
       
       if(get_post_meta($args->ID,'modal',true)): ?>
             <?php $modal = get_post_meta($args->ID,'modal',true); ?>
