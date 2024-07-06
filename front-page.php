@@ -21,7 +21,7 @@ if(get_field('headline','options')){
 
                     <?php echo do_shortcode('[subpages id="leistungen"]'); ?>
 
-                    <?php get_template_part('template-parts/onepager/keramikbschichtung','',array()); ?>  
+                    <?php //get_template_part('template-parts/onepager/keramikbeschichtung','',array()); ?>  
             </div>   
         </div>
     </div>
