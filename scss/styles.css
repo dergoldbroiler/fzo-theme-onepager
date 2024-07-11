@@ -1502,7 +1502,7 @@ strong, b {
 }
 @media (max-width: 992px) {
   .partner-banner {
-    height: 430px;
+    height: 550px;
     background-image: unset;
   }
 }
