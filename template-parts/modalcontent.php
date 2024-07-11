@@ -16,11 +16,11 @@
             <lottie-player src="<?php bloginfo('stylesheet_directory'); ?>/animation_lmltvt78.json" background="transparent"  speed="1"  style="width: 300px; height: 300px;margin:auto" loop autoplay></lottie-player>
         <h2 class="text-center">Termin vereinbaren –Wir freuen uns auf Sie!</h2>
 
-        <p class="pt-4 w-100 text-center">Telefonisch / WhatsApp:</p>
+        <p class="pt-4 w-100 text-center">Telefonisch:</p>
         <div class="modal-contact w-50 m-auto pb-5 text-center">
-        <p class="telefon"><a href="tel://0049276182870" target="_blank" class="text-decoration-none">02761/ 82870</a></p>
-<p class="whatsapp"><a href="https://wa.me/0049276182870" target="_blank" class="text-decoration-none">02761/ 82870</a></p>
-<p class="email"><a href="mailto:info@fz-olpe.de" target="_blank" class="text-decoration-none">info@fz-olpe.de</a></p>
+        <p class="telefon"><a href="tel://004927619479845" target="_blank" class="text-decoration-none">02761/9479845</a></p>
+<p class="whatsapp d-none"><a href="https://wa.me/0049276182870" target="_blank" class="text-decoration-none">02761/ 82870</a></p>
+<p class="email"><a href="mailto:info@ceramic-experts.de" target="_blank" class="text-decoration-none">info@ceramic-experts.de</a></p>
 </div>
   
         </div>
