@@ -4,7 +4,7 @@
     </div>
     <div class="d-flex flex-row me-5">
         <p>Wir beraten Sie gerne:</p>
-        <p class="telefon"><a href="tel://0049276182870" target="_blank">02761/ 82870</a></p>
+        <p class="telefon"><a href="tel://004927619479845" target="_blank">02761/ 9479845</a></p>
         <p class="whatsapp d-none"><a href="https://wa.me/0049276182870" target="_blank">02761/ 82870</a></p>
     </div>
     <div class="d-flex flex-row">
