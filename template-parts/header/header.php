@@ -32,7 +32,14 @@
                 <a href="http://www.autohaus-loehr.de/"><img  src="<?php bloginfo('stylesheet_directory'); ?>/images/FZ_Olpe_Logo_mobile.svg" alt="Autohaus Löhr, Fahrzeugzentrum Olpe" class="img-fluid" /></a>
             </div>
                 <?php
-                    wp_nav_menu(array('menu' => 'mainmenu', 'menu_id'=>'mainmenu', 'container' => false, 'menu_class' => 'mleft'));
+                  
+
+                    if(is_front_page()) :
+                        wp_nav_menu(array('menu' => 'mainmenu', 'menu_id'=>'mainmenu', 'container' => false, 'menu_class' => 'mleft'));
+                        else:
+                            wp_nav_menu(array('menu' => 'pages', 'menu_id'=>'mainmenu', 'container' => false, 'menu_class' => 'mleft'));
+                        endif;
+                      
                 ?>    
         </div>
     </div>  
@@ -80,8 +87,11 @@
             
             </div>
             <div class="secondcol ms-4 d-flex flex-row justify-content-start align-items-center">
-            <?php
+            <?php if(is_front_page()) :
                   wp_nav_menu(array('menu' => 'mainmenu', 'menu_id'=>'mainmenu', 'container' => false, 'menu_class' => 'px-0'));
+                  else:
+                  wp_nav_menu(array('menu' => 'pages', 'menu_id'=>'mainmenu', 'container' => false, 'menu_class' => 'px-0'));
+                  endif;
                 ?>
             </div> 
             
