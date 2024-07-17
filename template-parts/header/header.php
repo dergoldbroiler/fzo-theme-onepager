@@ -26,10 +26,10 @@
 
 
             <div class="back-mobile d-flex flex-row align-items-center justify-content-center p-3"> 
-                <a href="http://www.autohaus-loehr.de/" class="me-4">
+                <a href="https://www.autohaus-loehr.de/" class="me-4">
                     <img  src="<?php bloginfo('stylesheet_directory'); ?>/images/back_arrow.svg" alt="Autohaus Löhr, Fahrzeugzentrum Olpe" class="img-fluid" id="backto"/>    
                 </a>&nbsp;&nbsp;
-                <a href="http://www.autohaus-loehr.de/"><img  src="<?php bloginfo('stylesheet_directory'); ?>/images/FZ_Olpe_Logo_mobile.svg" alt="Autohaus Löhr, Fahrzeugzentrum Olpe" class="img-fluid" /></a>
+                <a href="https://www.autohaus-loehr.de/"><img  src="<?php bloginfo('stylesheet_directory'); ?>/images/FZ_Olpe_Logo_mobile.svg" alt="Autohaus Löhr, Fahrzeugzentrum Olpe" class="img-fluid" /></a>
             </div>
                 <?php
                   
