@@ -183,9 +183,6 @@ body #header .back-mobile, body #header-mobile .back-mobile {
     width: 100%;
   }
 }
-body #header .back-mobile img, body #header-mobile .back-mobile img {
-  max-width: 60%;
-}
 body #header .back-mobile img#backto, body #header-mobile .back-mobile img#backto {
   max-width: 100%;
   width: 100%;
